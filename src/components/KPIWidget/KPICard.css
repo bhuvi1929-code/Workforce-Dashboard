@@ -1,7 +1,19 @@
 .kpi-card {
-  background: white;
+  background: rgb(255, 254, 254);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px gray;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   text-align: center;
+  border: 1px solid rgb(5, 12, 53);
+}
+
+.kpi-card h3 {
+  color: rgb(17, 24, 39);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.kpi-card h2 {
+  color: rgb(17, 24, 39);
+  font-size: 32px;
 }

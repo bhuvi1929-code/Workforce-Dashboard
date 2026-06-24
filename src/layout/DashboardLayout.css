@@ -5,20 +5,31 @@
 
 .sidebar {
   width: 220px;
-  background: #1f2937;
+  background: rgb(31, 41, 55);
   color: white;
   padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 25px;
 }
 
 .sidebar nav {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .sidebar a {
   color: white;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.sidebar a:hover {
+  background-color: rgb(55, 65, 81);
 }
 
 .content {

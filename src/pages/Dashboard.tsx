@@ -3,7 +3,9 @@ import KPICard from "../components/KPIWidget/KPICard";
 const Dashboard = () => {
   return (
     <>
-      <h1>Workforce Analytics Dashboard</h1>
+     <h1 style={{ marginBottom: "20px" }}>
+  Workforce Analytics Dashboard
+</h1>
 
       <div
         style={{

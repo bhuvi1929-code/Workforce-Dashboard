@@ -1,3 +1,5 @@
+import "./KPICard.css";
+
 interface KPIProps {
   title: string;
   value: string | number;
