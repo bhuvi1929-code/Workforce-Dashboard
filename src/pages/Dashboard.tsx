@@ -21,25 +21,25 @@ const Dashboard = () => {
       >
         <KPICard
           title="Employees"
-          value={<span style={{ color: "#2563eb" }}>1250</span>}
+          value={<span style={{ color: "rgb(37, 99, 235)" }}>1250</span>}
           chart={<LineChartComponent />}
         />
 
         <KPICard
           title="Attrition"
-          value={<span style={{ color: "#ef4444" }}>12%</span>}
+          value={<span style={{ color: "rgb(239, 68, 68)" }}>12%</span>}
           chart={<PieChartComponent />}
         />
 
         <KPICard
           title="Hiring Rate"
-          value={<span style={{ color: "#10b981" }}>8%</span>}
+          value={<span style={{ color: "rgb(16, 185, 129)" }}>8%</span>}
           chart={<AreaChartComponent />}
         />
 
         <KPICard
           title="Skill Coverage"
-          value={<span style={{ color: "#8b5cf6" }}>91%</span>}
+          value={<span style={{ color: "rgb(139, 92, 246)" }}>91%</span>}
           chart={<DonutChartComponent />}
         />
       </div>

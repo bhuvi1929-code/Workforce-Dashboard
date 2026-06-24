@@ -5,7 +5,7 @@
 
 .sidebar {
   width: 240px;
-  background: #0f172a;
+  background: rgb(15, 23, 42);
   color: white;
   padding: 25px;
 }
@@ -31,13 +31,13 @@
 }
 
 .sidebar a:hover {
-  background: #1e40af;
+  background: rgb(30, 64, 175);
 }
 
 .content {
   flex: 1;
   padding: 30px;
-  background: #f3f4f6;
+  background: rgb(243, 244, 246);
 }
 
 @media (max-width: 768px) {
